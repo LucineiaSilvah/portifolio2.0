@@ -20,14 +20,14 @@ Minha missão é unir essa bagagem de atendimento com código para criar soluç�
         <div className=" ">
           <h4 className="text-left pl-10 text-2xl italic">Soft</h4>
           <ul className="grid lg:grid-cols-4 gap-4 p-2 grid-cols-2 lg:p-4 ">
-            <li><Tags nome='trabalho em equipe'/></li>
-            <li><Tags nome='paciência'/></li>
-            <li><Tags nome='Agilidade'/></li>
-            <li><Tags nome='flexibilidade'/></li>
-            <li><Tags nome='gestão de tempo'/></li>
-            <li><Tags nome='organização'/></li>
-            <li><Tags nome='comprometimento'/></li>
-            <li><Tags nome='empatia'/></li>
+            <li><Tags >trabalho em equipe </Tags></li>
+            <li><Tags >paciência</Tags></li>
+            <li><Tags >Agilidade</Tags></li>
+            <li><Tags> flexibilidade</Tags></li>
+            <li><Tags> gestão de tempo</Tags></li>
+            <li><Tags>organização</Tags></li>
+            <li><Tags >comprometimento</Tags></li>
+            <li><Tags >empatia</Tags></li>
           
           
           </ul>
@@ -35,16 +35,15 @@ Minha missão é unir essa bagagem de atendimento com código para criar soluç�
         <div className="">
           <h4 className="text-left pl-10 text-2xl italic">Hard</h4>
           <ul className="grid lg:grid-cols-4 gap-4 p-2 grid-cols-2 lg:p-4 ">
-            <li><Tags nome='html'/></li>
-            <li><Tags nome='css'/></li>
-            <li><Tags nome='js'/></li>
-            <li><Tags nome='node.js'/></li>
-            <li><Tags nome='bootstrap'/></li>
-            <li><Tags nome='react.js'/></li>
-            <li><Tags nome='next.js'/></li>
-            <li><Tags nome='php'/></li>
-            <li><Tags nome='sql'/></li>
-            <li><Tags nome='git'/></li>
+              <li><Tags >html</Tags></li>
+              <li><Tags >css</Tags></li>
+              <li><Tags >js</Tags></li>
+              <li><Tags >node.js</Tags></li>
+              <li><Tags >bootstrap</Tags></li>
+              <li><Tags >react.js</Tags></li>
+              <li><Tags >next.js</Tags></li>
+              <li><Tags >php</Tags></li>
+              <li><Tags >tailwind</Tags></li>
           
           
           </ul>
