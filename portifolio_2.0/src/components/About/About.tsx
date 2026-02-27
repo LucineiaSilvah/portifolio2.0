@@ -1,3 +1,5 @@
+import Tags from "../tags/Tags";
+
 const About = () => {
   return (
     <section id="about" className="border-2 h-auto min-h-screen w-[80%] m-auto flex flex-col text-center">
@@ -14,23 +16,37 @@ Sou Graduada em Gestão de TI e formada em Desenvolvimento Front-End pelo progra
 Atualmente curso Bacharelado em Engenharia de Software.
 Minha missão é unir essa bagagem de atendimento com código para criar soluções que realmente ajudem pessoas.</p>
        <div>
-        <h2 className="text-3xl p-4 text-center">skills adquiridas</h2>
-        <div className="border-2 ">
-          <h4 className="text-left pl-10">Soft</h4>
-          <ul className="grid grid-cols-3">
-            <li>tag</li>
-            <li>tag</li>
-            <li>tag</li>
-            <li>tag</li>
+        <h2 className="text-3xl font-bold p-4 text-center">skills adquiridas</h2>
+        <div className=" ">
+          <h4 className="text-left pl-10 text-2xl italic">Soft</h4>
+          <ul className="grid lg:grid-cols-4 gap-4 p-2 grid-cols-2 lg:p-4 ">
+            <li><Tags nome='trabalho em equipe'/></li>
+            <li><Tags nome='paciência'/></li>
+            <li><Tags nome='Agilidade'/></li>
+            <li><Tags nome='flexibilidade'/></li>
+            <li><Tags nome='gestão de tempo'/></li>
+            <li><Tags nome='organização'/></li>
+            <li><Tags nome='comprometimento'/></li>
+            <li><Tags nome='empatia'/></li>
+          
+          
           </ul>
         </div>
-        <div className="border-2 ">
-          <h4 className="text-left pl-10">Hard</h4>
-          <ul className="grid grid-cols-3">
-            <li>tag</li>
-            <li>tag</li>
-            <li>tag</li>
-            <li>tag</li>
+        <div className="">
+          <h4 className="text-left pl-10 text-2xl italic">Hard</h4>
+          <ul className="grid lg:grid-cols-4 gap-4 p-2 grid-cols-2 lg:p-4 ">
+            <li><Tags nome='html'/></li>
+            <li><Tags nome='css'/></li>
+            <li><Tags nome='js'/></li>
+            <li><Tags nome='node.js'/></li>
+            <li><Tags nome='bootstrap'/></li>
+            <li><Tags nome='react.js'/></li>
+            <li><Tags nome='next.js'/></li>
+            <li><Tags nome='php'/></li>
+            <li><Tags nome='sql'/></li>
+            <li><Tags nome='git'/></li>
+          
+          
           </ul>
         </div>
        
