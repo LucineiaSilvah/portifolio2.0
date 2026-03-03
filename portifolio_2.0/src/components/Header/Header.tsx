@@ -1,4 +1,5 @@
 import logo from '../../assets/logo-transp.png'
+import Button from '../Button/Button';
 const Header = () => {
 
    const scrollToComponent = (id:string) => {
@@ -14,17 +15,20 @@ const Header = () => {
         </p>
         <nav className="">
           <p className="w-10 h-6 absolute right-6 top-8 lg:hidden ">menu</p>
-          <ul className="flex justify-between  lg:gap-20 flex-col lg:flex-row absolute right-0 gap-4 top-5 mt-14 lg:static lg:mt-0 lg:w-auto w-screen text-center bg-white/90 p-2
+          <ul className="flex justify-between  lg:gap-10 flex-col lg:flex-row absolute right-0 gap-4 top-5 mt-14 lg:static lg:mt-0 lg:w-auto w-screen text-center bg-white/90 p-2
           ">
-            <li onClick={()=> scrollToComponent('home')}>inicio</li>
-            <li onClick={()=> scrollToComponent('about')}>Quem Sou</li>
-            <li onClick={()=> scrollToComponent('projects')}>Projetos</li>
-            <li onClick={()=> scrollToComponent('about')}>Estudos</li>
+            <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700  border-b-white flex justify-center items-center w-auto cursor-pointer' onClick={()=> scrollToComponent('home')} >inicio</li>
+                   <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('about')}>Quem Sou</li>
+                 <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('projects')}>Projetos</li>
+                  <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('about')}>Estudos</li>
       
            
           </ul>
         </nav>
-        <button onClick={()=>scrollToComponent('contact')}  className="absolute right-0 top-6 left-0  lg:static bg-purple-800 text-white p-2 mr-4 w-20 h-20 rounded-b-full cursor-pointer">Contato</button>
+        <Button >
+          <span onClick={()=> scrollToComponent('contact')}>Contato</span>
+        </Button>
+        {/* <button onClick={()=>scrollToComponent('contact')}  className="absolute right-0 top-6 left-0  lg:static bg-purple-800 text-white p-2 mr-4 w-20 h-20 rounded-b-full cursor-pointer">Contato</button> */}
     </header>
   );
 }

@@ -6,7 +6,7 @@ interface  Props{
 
 const Tags = ({children }:Props) => {
   return (
-    <div className="w-40 p-2 shadow-sm shadow-gray-400 rounded-full font-medium bg-purple-200/70">
+    <div className="min-w-20 h-10  flex justify-center items-center p-1 shadow-sm shadow-gray-400 rounded-full font-50 font-roboto  bg-purple-100/70">
       {children}
     </div>
   );
