@@ -3,7 +3,7 @@
 
 import Button from "../Button/Button";
 import Tags from "../tags/Tags";
-import passatempo from '../../assets/passatempo.webp'
+
 
 const Card = ({imagem,titulo,descricao,techs,demo,repo}) => {
   return (
@@ -29,7 +29,7 @@ const Card = ({imagem,titulo,descricao,techs,demo,repo}) => {
       
           </div>
           </div>
-          <img  src={passatempo} alt=" foto site passatempo educativo" className='h-80 group-hover:hidden'/>
+          <img  src={imagem} alt=" foto site passatempo educativo" className='h-80 p-2 group-hover:hidden rounded-3xl'/>
          
           </div>
   );

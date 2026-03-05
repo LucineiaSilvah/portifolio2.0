@@ -6,6 +6,9 @@
 // import { TbEyeShare } from "react-icons/tb";
 
 import passatempo from "../../assets/passatempo.webp";
+import futebol from "../../assets/fec.webp";
+import barbearia from "../../assets/vanhalla.webp";
+import site from "../../assets/sitepessoal.webp";
 import Card from "../Card/Card";
 const data = [
   {
@@ -16,49 +19,49 @@ const data = [
         descricao:
           "Nesse projeto voluntario criei algumas paginas fiz alguns ajustes nos layout e ainda realizo manutenções pontuais ",
         techs: "HTML | CSS | JS | PHP",
-        repo: "https://github.com/LucineiaSilvah/barbearia",
-        demo: "https://barbearia-sage-eight.vercel.app/",
-      },
-      {
-        imagem: "img5",
-        titulo: "Passatempo Educativo",
-        descricao: "Voluntariado **ATUALIZAÇÃO/MELHORIAS**",
-        techs: "Techs:HTML5 | CSS3 | JS | PHP",
         repo: "#",
         demo: "https://passatempoeducativo.org.br/",
       },
       {
-        imagem: "img6",
+        imagem: futebol,
+        titulo: "Futebol e Ciência",
+        descricao: "trabalho voluntariado onde contribui na implementação da parte responsiva do site, tablet e celular",
+        techs: "Techs: NEXT.JS | SCSS ",
+        repo: "#",
+        demo: "https://www.futebolciencia.com.br/",
+      },
+      {
+        imagem: barbearia,
+        titulo: "Barbearia",
+        descricao: "Barbearia Vanhalla é um site fictício pensado em uma barbearia, inspirada em um tema viking",
+        techs: "Techs:HTML5 | TAILWIND CSS | REACT ",
+        repo: "https://github.com/LucineiaSilvah/barbearia/tree/main",
+        demo: "https://barbearia-sage-eight.vercel.app/",
+      },
+      {
+        imagem: site,
         titulo: "Site Pessoal",
-        descricao: "Site para oferecer serviços",
-        techs: "Techs:HTML5 | TAILWIND CSS | REACT | HOSPEDAGEM",
+        descricao: "Projeto Pessoal desenvolvido para mostrar meu trabalho online, e aprender a trabalhar com a parte de hospedagem do site",
+        techs: "Techs:REACT | TAILWINCSS ",
         repo: "#",
         demo: "https://site-es1ppeyy4-lucineiasilvahs-projects.vercel.app/",
       },
-      {
-        imagem: "img1",
-        titulo: "Só Amores Petshop",
-        descricao: "Projeto Pessoal",
-        techs: "Techs:HTML5 | CSS3 | REACT",
-        repo: "https://github.com/LucineiaSilvah/petshop",
-        demo: "https://petshop-sooty.vercel.app/",
-      },
-      {
-        imagem: "img2",
-        titulo: "Ipsom Ong",
-        descricao: "Projeto Pessoal",
-        techs: "Techs:HTML5 | CSS3 | REACT",
-        repo: "https://github.com/LucineiaSilvah/ong",
-        demo: "https://ong-beta.vercel.app/",
-      },
-      {
-        imagem: "img3",
-        titulo: "Mortal Figther",
-        descricao: "Challange DIO Modelo blog",
-        techs: "Techs:TS | ANGULAR | CSS",
-        repo: "https://github.com/LucineiaSilvah/angular-blog",
-        demo: "https://angular-blog-rust-three.vercel.app/",
-      },
+      // {
+      //   imagem: "img2",
+      //   titulo: "Ipsom Ong",
+      //   descricao: "Projeto Pessoal",
+      //   techs: "Techs:HTML5 | CSS3 | REACT",
+      //   repo: "https://github.com/LucineiaSilvah/ong",
+      //   demo: "https://ong-beta.vercel.app/",
+      // },
+      // {
+      //   imagem: "img3",
+      //   titulo: "Mortal Figther",
+      //   descricao: "Challange DIO Modelo blog",
+      //   techs: "Techs:TS | ANGULAR | CSS",
+      //   repo: "https://github.com/LucineiaSilvah/angular-blog",
+      //   demo: "https://angular-blog-rust-three.vercel.app/",
+      // },
       // {
       //   imagem: "padrao",
       //   titulo: "Projeto Buzzfeed",
