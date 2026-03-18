@@ -13,7 +13,7 @@ const Header = () => {
         <p className="absolute left-4 lg:static p-2">
           <img src={logo} alt="" width={80}  />
         </p>
-        <nav className="">
+        <nav className="font-sans">
           <p className="w-10 h-6 absolute right-6 top-8 lg:hidden ">menu</p>
           <ul className="flex justify-between  lg:gap-10 flex-col lg:flex-row absolute right-0 gap-4 top-5 mt-14 lg:static lg:mt-0 lg:w-auto w-screen text-center bg-white/90 p-2
           ">

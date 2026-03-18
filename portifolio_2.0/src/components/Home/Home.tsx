@@ -10,7 +10,7 @@ const Home = () => {
         </h2>
 
        <div>
-         <h3 className="lg:text-3xl text:lg italic">Eu sou Desenvolverdora Front End</h3>
+         <h3 className="lg:text-3xl text:lg italic">Desenvolverdora Front End</h3>
 <p className='italic'>&</p>
         <p className="pt-2 text-sm lg:text-md">"Acredito que a tecnologia pode e deve simplificar a vida das pessoas."</p>
        </div>
