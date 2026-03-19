@@ -17,7 +17,6 @@ import {
   SiTypescript,
   SiReact
 } from 'react-icons/si'
-import Tag from '../tags/Tags'
 const iconMap = {
   html: <FaHtml5 className="w-8 h-8 text-orange-500" />,
   css: <FaCss3Alt className="w-8 h-8 text-blue-500" />,

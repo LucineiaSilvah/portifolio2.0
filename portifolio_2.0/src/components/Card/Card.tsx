@@ -1,4 +1,3 @@
-import { FiChevronsRight } from "react-icons/fi";
 import Button from "../Button/Button";
 
 type Props = {
