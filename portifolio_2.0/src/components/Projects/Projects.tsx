@@ -263,7 +263,7 @@ const Projects = () => {
          
         
           <p key={tech} className="flex m-4">
-  {iconMap[tech] || tech}
+{iconMap[tech as keyof typeof iconMap] || tech}
           </p>
            
           
