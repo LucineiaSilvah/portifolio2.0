@@ -240,7 +240,7 @@ const Projects = () => {
       <div className="flex flex-col gap-14 pt-20">
         <h2 className="text-4xl pt-10 text-center">Projetos</h2>
 
-        <div className="h-auto grid grid-cols-2 gap-6 ">
+        <div className="h-auto grid md:grid-cols-2 gap-6 grid-cols-1">
          
 
           {data &&
