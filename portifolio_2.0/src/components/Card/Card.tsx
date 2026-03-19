@@ -1,27 +1,27 @@
-
+import { FiChevronsRight } from "react-icons/fi";
 import Button from "../Button/Button";
-import Tags from "../tags/Tags";
+
 type Props = {
 imagem:string;
 titulo:string;
 descricao:string;
-techs:string;
+children: React.ReactNode;
 demo:string;
 repo:string;
 }
-const Card = ({imagem,titulo,descricao,techs,demo,repo}:Props) => {
+const Card = ({imagem,titulo,descricao,demo,repo,children}:Props) => {
   return (
    <div className="border-2 col-span-3 h-80 rounded-2xl overflow-hidden group relative  ">
-           <div className='absolute z-10 w-full h-full flex-col  justify-around gap-4 p-10  hidden group-hover:flex transition-discrete  delay-100 '>
+           <div className='absolute z-10 w-full h-full flex-col  justify-around gap-1 p-10  hidden group-hover:flex transition-discrete  delay-100 '>
 
           <h2 className="text-2xl text-left uppercase">{titulo}</h2>
           <p className="font-sans text-left">{descricao}</p>
-          <span className="text-left captalize italic">techs utilizadas</span>
+         
            <ul className="flex justify-around">
      
-        <Tags >
-          {techs}
-        </Tags>
+        <p className="flex h-auto  items-center" >
+           <span className="text-left captalize italic flex  items-center ">techs utilizadas  </span>{children}
+        </p>
            </ul>
           <div className="flex justify-around">
    <Button>

@@ -1,15 +1,42 @@
-// import { PiFileJsBold } from "react-icons/pi";
-// import { FaCss3 } from "react-icons/fa6";
-// import { FaReact } from "react-icons/fa";
-// import { FaPhp } from "react-icons/fa6";
-// import { TbEyeCode } from "react-icons/tb";
-// import { TbEyeShare } from "react-icons/tb";
-
 import passatempo from "../../assets/passatempo.webp";
 import futebol from "../../assets/fec.webp";
 import barbearia from "../../assets/vanhalla.webp";
 import site from "../../assets/sitepessoal.webp";
 import Card from "../Card/Card";
+import { FaHtml5, FaJs } from "react-icons/fa";
+import { FaCss3Alt, FaPhp } from "react-icons/fa6";
+import { 
+  SiNextdotjs,    
+  SiTailwindcss,  
+  SiBootstrap,     
+  SiGit,   
+  SiVercel,          
+  SiFigma,          
+  SiSass,
+  SiFirebase,
+  SiTypescript,
+  SiReact
+} from 'react-icons/si'
+import Tag from '../tags/Tags'
+const iconMap = {
+  html: <FaHtml5 className="w-8 h-8 text-orange-500" />,
+  css: <FaCss3Alt className="w-8 h-8 text-blue-500" />,
+  js: <FaJs className="w-8 h-8 text-yellow-500" />,
+    react: <SiReact className="w-8 h-8 text-cyan-400" />,
+      next: <SiNextdotjs className="w-8 h-8 text-black " />,
+  nextjs: <SiNextdotjs className="w-8 h-8 text-black dark:text-white" />,
+  vercel: <SiVercel  className="w-8 h-8 text-black" />,
+  tailwind: <SiTailwindcss className="w-8 h-8 text-cyan-500" />,
+  tailwindcss: <SiTailwindcss className="w-8 h-8 text-cyan-500" />,
+  php: <FaPhp className="w-8 h-8 text-purple-500" />,
+  bootstrap: <SiBootstrap className="w-8 h-8 text-purple-600" />, 
+  git: <SiGit className="w-8 h-8 text-orange-600" />,
+  figma: <SiFigma className="w-8 h-8 text-purple-500" />,
+  scss: <SiSass className="w-8 h-8 text-pink-500" />,
+  firebase: <SiFirebase className="w-8 h-8 text-yellow-500" />,
+  ts: <SiTypescript className="w-8 h-8 text-blue-600" />,
+  typescript: <SiTypescript className="w-8 h-8 text-blue-600" />,
+};
 const data = [
   {
     destaque: [
@@ -18,7 +45,7 @@ const data = [
         titulo: "passatempo educativo",
         descricao:
           "Nesse projeto voluntario criei algumas paginas fiz alguns ajustes nos layout e ainda realizo manutenções pontuais ",
-        techs: "HTML | CSS | JS | PHP",
+        techs: ['html','css','js','php'],
         repo: "#",
         demo: "https://passatempoeducativo.org.br/",
       },
@@ -26,7 +53,7 @@ const data = [
         imagem: futebol,
         titulo: "Futebol e Ciência",
         descricao: "trabalho voluntariado onde contribui na implementação da parte responsiva do site, tablet e celular",
-        techs: "Techs: NEXT.JS | SCSS ",
+        techs: ['next','scss','ts','git',],
         repo: "#",
         demo: "https://www.futebolciencia.com.br/",
       },
@@ -34,7 +61,7 @@ const data = [
         imagem: barbearia,
         titulo: "Barbearia",
         descricao: "Barbearia Vanhalla é um site fictício pensado em uma barbearia, inspirada em um tema viking",
-        techs: "Techs:HTML5 | TAILWIND CSS | REACT ",
+        techs: ['react','css','js','git','vercel'],
         repo: "https://github.com/LucineiaSilvah/barbearia/tree/main",
         demo: "https://barbearia-sage-eight.vercel.app/",
       },
@@ -42,7 +69,7 @@ const data = [
         imagem: site,
         titulo: "Site Pessoal",
         descricao: "Projeto Pessoal desenvolvido para mostrar meu trabalho online, e aprender a trabalhar com a parte de hospedagem do site",
-        techs: "Techs:REACT | TAILWINCSS ",
+        techs: ['react','tailwind','js','git','vercel'],
         repo: "#",
         demo: "https://site-es1ppeyy4-lucineiasilvahs-projects.vercel.app/",
       },
@@ -215,25 +242,7 @@ const Projects = () => {
         <h2 className="text-4xl pt-10 text-center">Projetos</h2>
 
         <div className="border-amber-300 border-3 h-auto grid grid-cols-2 gap-6 ">
-          {/* <div className="300 grid grid-cols-6  gap-6 ">
-            <Card />
-            <p className="border-2 col-span-3 h-80 rounded-2xl">
-              <Card />
-            </p>
-
-            <p className="border-2 col-span-2 h-60 rounded-2xl">
-              {" "}
-              <Card />
-            </p>
-            <p className="border-2 col-span-2 h-60 rounded-2xl">
-              {" "}
-              <Card />
-            </p>
-            <p className="border-2 col-span-2 h-60 rounded-2xl">
-              {" "}
-              <Card />
-            </p>
-          </div> */}
+         
 
           {data &&
             data[0].destaque.map((p, i) => {
@@ -246,10 +255,23 @@ const Projects = () => {
                     imagem={p.imagem}
                     titulo={p.titulo}
                     descricao={p.descricao}
-                    techs={p.techs}
+              
                     demo={p.demo}
                     repo={p.repo}
-                  />
+                  >
+              {p.techs.map((tech) =>(
+               
+         
+        
+          <p key={tech} className="flex m-4">
+  {iconMap[tech] || tech}
+          </p>
+           
+          
+      
+       
+              ))}
+                  </Card>
                      </p>
                
                 </div>
