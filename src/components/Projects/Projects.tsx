@@ -235,7 +235,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="border-2 h-auto w-[80%] m-auto flex flex-col text-center"
+      className="h-auto w-[90%] m-auto flex flex-col text-center"
     >
       <div className="flex flex-col gap-14 pt-20">
         <h2 className="text-4xl pt-10 text-center">Projetos</h2>

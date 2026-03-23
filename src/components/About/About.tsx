@@ -2,9 +2,9 @@ import Tags from "../tags/Tags";
 
 const About = () => {
   return (
-    <section id="about" className="border-2 h-auto min-h-screen w-[80%] m-auto flex flex-col text-center font-sans">
+    <section id="about" className=" h-auto min-h-screen w-[90%] m-auto flex flex-col text-center font-sans">
       <div className="flex flex-col gap-20 pt-20 ">
-        <h2 className="text-4xl pt-10 text-center">
+        <h2 className="text-4xl pt-20 text-center">
          Quem Sou
         </h2>
        <p className="px-4 ">Oi, sou a Luh.

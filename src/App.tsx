@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Header/>
-    <main className="border-2 border-amber-500 w-auto ">
+    <main className=" w-auto ">
     <Home/>
    <Projects/>
    <About/>
