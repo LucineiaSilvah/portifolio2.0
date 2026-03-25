@@ -3,11 +3,11 @@ import Tags from "../tags/Tags";
 const About = () => {
   return (
     <section id="about" className=" h-auto min-h-screen w-[90%] m-auto flex flex-col text-center font-sans">
-      <div className="flex flex-col gap-20 pt-20 ">
+      <div className="flex flex-col gap-20 py-20 ">
         <h2 className="text-4xl pt-20 text-center">
          Quem Sou
         </h2>
-       <p className="px-4 ">Oi, sou a Luh.
+       <p className=" leading-10">Oi, sou a Luh.
 
 Passei mais de 10 anos no atendimento ao cliente em redes de fast-food onde comecei como atendente e cheguei a subgerente. E olha, foi ali que aprendi na prática o que hoje levo para a tecnologia: resolver problema de gente real, com clareza e agilidade.
 

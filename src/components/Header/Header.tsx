@@ -57,6 +57,7 @@ const handleMenu = ()=>
                    <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('about')}>Quem Sou</li>
                  <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('projects')}>Projetos</li>
                   <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('about')}>Estudos</li>
+                  <li className='border-2 border-purple-700 text-black font-semibold text-center cursor-pointer hover:bg-purple-700/50 hover:text-white transition-colors delay-75 min-w-10 lg:px-4 px-2 rounded-full  flex items-center justify-center flex-row gap-2 text-md lg:text-lg w-[70%] m-auto lg:w-full h-12' onClick={()=> scrollToComponent('contact')}>Contato</li>
       
            
           </ul>
