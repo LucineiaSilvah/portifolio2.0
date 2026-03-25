@@ -19,7 +19,7 @@ Minha missão é unir essa bagagem de atendimento com código para criar soluç�
         <h2 className="text-3xl font-bold p-4 text-center">skills adquiridas</h2>
         <div className=" ">
           <h4 className="text-left pl-10 text-2xl italic">Soft</h4>
-          <ul className="grid lg:grid-cols-4 gap-4 p-2 grid-cols-2 lg:p-4 ">
+          <ul className="grid lg:grid-cols-4 gap-2 py-4 grid-cols-2 lg:p-4 ">
             <li><Tags >trabalho em equipe </Tags></li>
             <li><Tags >paciência</Tags></li>
             <li><Tags >Agilidade</Tags></li>
