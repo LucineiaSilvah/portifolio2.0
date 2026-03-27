@@ -1,7 +1,7 @@
 import passatempo from "../../assets/passatempo.webp";
 import futebol from "../../assets/fec.webp";
 import barbearia from "../../assets/vanhalla.webp";
-import site from "../../assets/sitepessoal.webp";
+import tatto from "../../assets/tatto.webp";
 import Card from "../Card/Card";
 import { FaHtml5, FaJs } from "react-icons/fa";
 import { FaCss3Alt, FaPhp } from "react-icons/fa6";
@@ -65,11 +65,11 @@ const data = [
         demo: "https://barbearia-sage-eight.vercel.app/",
       },
       {
-        imagem: site,
-        titulo: "Site Pessoal",
-        descricao: "Projeto Pessoal desenvolvido para mostrar meu trabalho online, e aprender a trabalhar com a parte de hospedagem do site",
-        techs: ['react','tailwind','js','git','vercel'],
-        repo: "#",
+        imagem: tatto,
+        titulo: "Studio de tatuagem",
+        descricao: "Projeto de site para studio de tatuagem fictício",
+        techs: ['html','css','js','git','netlifly'],
+        repo: "https://github.com/LucineiaSilvah/site/tree/main/site",
         demo: "https://site-es1ppeyy4-lucineiasilvahs-projects.vercel.app/",
       },
       // {
