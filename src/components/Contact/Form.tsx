@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 
 const Form = () => {
   return (
@@ -26,9 +27,7 @@ const Form = () => {
      
     </div>
     <div className="flex items-center justify-center">
-      <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-        Enviar
-      </button>
+     <Button>Enviar</Button>
     
     </div>
   </form>
