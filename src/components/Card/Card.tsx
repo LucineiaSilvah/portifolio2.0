@@ -5,8 +5,8 @@ imagem:string;
 titulo:string;
 descricao:string;
 children: React.ReactNode;
-demo:string;
-repo:string;
+demo?:string;
+repo?:string;
 }
 const Card = ({imagem,titulo,descricao,demo,repo,children}:Props) => {
   return (

@@ -1,5 +1,6 @@
 import Tags from "../tags/Tags";
 
+
 const About = () => {
   return (
     <section id="about" className=" h-auto min-h-screen w-[90%] m-auto flex flex-col text-center font-sans">
@@ -51,6 +52,7 @@ Minha missão é unir essa bagagem de atendimento com código para criar soluç�
        
        </div>
       </div>
+
     </section>
   );
 };
