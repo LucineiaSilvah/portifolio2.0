@@ -1,4 +1,4 @@
-import { useState, useEffect, type SetStateAction } from 'react';
+import { useState, useEffect } from 'react';
 import uniasselvi from '../../assets/unia.jpg'
 import gran from '../../assets/gran-faculdade.webp'
 import udemy from '../../assets/udemy.webp'
