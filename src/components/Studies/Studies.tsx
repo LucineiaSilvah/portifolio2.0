@@ -21,7 +21,7 @@ const Studies = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-  const goToSlide = (index: SetStateAction<number>) => {
+  const goToSlide = (index:number) => {
     setCurrentSlide(index);
     // Resetar o timer quando o usuário interage
     setIsAutoPlaying(false);
