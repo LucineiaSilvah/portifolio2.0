@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, type SetStateAction } from 'react';
 import uniasselvi from '../../assets/unia.jpg'
 import gran from '../../assets/gran-faculdade.webp'
 import udemy from '../../assets/udemy.webp'
@@ -21,7 +21,7 @@ const Studies = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-  const goToSlide = (index) => {
+  const goToSlide = (index: SetStateAction<number>) => {
     setCurrentSlide(index);
     // Resetar o timer quando o usuário interage
     setIsAutoPlaying(false);
