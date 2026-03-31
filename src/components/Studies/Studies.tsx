@@ -39,7 +39,7 @@ const Studies = () => {
     }
     
     return () => clearInterval(interval);
-  }, [isAutoPlaying]);
+  }, [isAutoPlaying, slides.length]);
 
   return (
     <section id="studies" className="h-auto min-h-screen w-[90%] m-auto flex flex-col text-center font-sans">
@@ -93,7 +93,7 @@ const Studies = () => {
         {/* Slider controls */}
         <button
           type="button"
-          className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          className="absolute top-0 inset-s-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           onClick={() => {
             prevSlide();
             setIsAutoPlaying(false);
@@ -109,7 +109,7 @@ const Studies = () => {
         </button>
         <button
           type="button"
-          className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          className="absolute top-0 inset-e-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           onClick={() => {
             nextSlide();
             setIsAutoPlaying(false);
