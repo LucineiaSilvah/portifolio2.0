@@ -235,18 +235,18 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-auto w-[90%] m-auto flex flex-col text-center gap-20"
+      className="h-auto w-[90%] flex flex-col text-center gap-y-20  "
     >
-      <div className="flex flex-col gap-14 pt-20 h-auto">
+      <div className="flex flex-col gap-14 pt-20 h-auto ">
         <h2 className="text-4xl pt-10 text-center">Projetos</h2>
 
-        <div className="h-auto grid md:grid-cols-2 gap-30  grid-cols-1 ">
+        <div className="h-auto grid md:grid-cols-2 gap-y-30 lg:gap-20 grid-cols-1   ">
          
 
           {data &&
             data[0].destaque.map((p, i) => {
               return (
-                <div className=" " >
+                <div className=" " data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
 
                      <p className="h-80 rounded-2xl ">
    <Card

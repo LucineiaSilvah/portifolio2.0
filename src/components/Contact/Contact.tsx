@@ -2,7 +2,7 @@ import Form from "./Form";
 import { FaGithub, FaGoogle, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 const Contact = () => {
   return (
-    <section id="contact" className=" h-auto w-[90%] m-auto flex flex-col text-center">
+    <section id="contact" className=" h-auto w-[90%] m-auto flex flex-col text-center" >
       <div className="flex flex-col gap-20 pt-20 ">
         <h2 className="text-4xl pt-10 text-center">
          Contato
@@ -21,7 +21,7 @@ const Contact = () => {
       <FaWhatsapp size={30} color="#25D366" />
        </a>
        </div>
-       <div className="">
+       <div className="" data-aos="fade-up"  data-aos-duration="1000" data-aos-delay="500">
        <Form/>
        </div>
       </div>

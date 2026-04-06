@@ -3,7 +3,7 @@ import foto from '../../assets/foto.png'
 const Home = () => {
   return (
     <section id="home"  className=" h-screen w-[90%] m-auto flex lg:flex-row flex-col  text-center font-poppins">
-      <div className="flex flex-col lg:gap-16 pt-12 lg:pt-0">
+      <div className="flex flex-col lg:gap-16 pt-12 lg:pt-0" >
         <h2 className="lg:text-4xl lg:pt-50 pt-20 text-2xl text-center font-heading ">
           Olá, Eu sou a Luh <br></br>
           Seja Bem Vindo ao meu Portifólio
@@ -15,7 +15,7 @@ const Home = () => {
         <p className="pt-2 text-sm lg:text-md">"Acredito que a tecnologia pode e deve simplificar a vida das pessoas."</p>
        </div>
       </div>
-      <div className="rounded-t-4xl  w-[80%] lg:w-[50%] m-auto lg:h-100 h-80  pt-20 lg:pt-50 flex items-center justify-center overflow-hidden">
+      <div className="rounded-t-4xl  w-[80%] lg:w-[50%] m-auto lg:h-100 h-80  pt-30 lg:pt-50 flex items-center justify-center overflow-hidden" data-aos="fade-left"  data-aos-duration="1000" >
         <img src={foto} alt="" className='drop-shadow-lg drop-shadow-purple-700' />
 
       </div>

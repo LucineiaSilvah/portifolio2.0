@@ -10,7 +10,7 @@ repo?:string;
 }
 const Card = ({imagem,titulo,descricao,demo,repo,children}:Props) => {
   return (
-   <div className="border h-auto min-h-80  rounded-2xl overflow-hidden group lg:relative  ">
+   <div className="border h-auto min-h-80  rounded-2xl overflow-hidden group lg:relative m-auto ">
     <div className="">
 
     <img  src={imagem} alt=" foto site passatempo educativo" className='lg:h-80 lg:block hidden p-2 lg:group-hover:hidden rounded-3xl '/>
