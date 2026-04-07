@@ -23,7 +23,7 @@ function App() {
   return (
     <>
     <Header/>
-    <main className="w-full flex flex-col justify-center items-center m-auto text-center">
+    <main className="w-auto flex flex-col justify-center items-center m-auto text-center">
     <Home/>
    <Projects/>
    <About/>
