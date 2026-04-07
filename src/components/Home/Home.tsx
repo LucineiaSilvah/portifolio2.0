@@ -15,7 +15,7 @@ const Home = () => {
         <p className="pt-2 text-sm lg:text-md">"Acredito que a tecnologia pode e deve simplificar a vida das pessoas."</p>
        </div>
       </div>
-      <div className="rounded-t-4xl  w-[80%] lg:w-[50%] m-auto lg:h-100 h-80  pt-30 lg:pt-50 flex items-center justify-center overflow-hidden" data-aos="fade-left"  data-aos-duration="1000" >
+      <div className="rounded-t-4xl  w-[80%] lg:w-[50%] m-auto lg:h-100 h-80  pt-30 lg:pt-50 flex items-center justify-center overflow-hidden" data-aos="fade-left"  data-aos-duration="800" >
         <img src={foto} alt="" className='drop-shadow-lg drop-shadow-purple-700' />
 
       </div>
