@@ -69,8 +69,8 @@ const data = [
         titulo: "Studio de tatuagem",
         descricao: "Projeto de site para studio de tatuagem fictício",
         techs: ['html','css','js','git','netlifly'],
-        repo: "https://github.com/LucineiaSilvah/site/tree/main/site",
-        demo: "https://site-es1ppeyy4-lucineiasilvahs-projects.vercel.app/",
+        repo: "https://github.com/LucineiaSilvah/TatooStyle",
+        demo: "https://tattoostyle.netlify.app/",
       },
       // {
       //   imagem: "img2",
@@ -88,8 +88,7 @@ const data = [
       //   repo: "https://github.com/LucineiaSilvah/angular-blog",
       //   demo: "https://angular-blog-rust-three.vercel.app/",
       // },
-      // {
-      //   imagem: "padrao",
+      // {      //   imagem: "padrao",
       //   titulo: "Projeto Buzzfeed",
       //   descricao: "Projeto estilo buzzfeed",
       //   tech: "Techs:TS | ANGULAR | CSS",
