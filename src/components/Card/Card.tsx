@@ -10,10 +10,10 @@ repo?:string;
 }
 const Card = ({imagem,titulo,descricao,demo,repo,children}:Props) => {
   return (
-   <div className="border h-auto min-h-80  rounded-2xl overflow-hidden group lg:relative m-auto ">
+   <div className="border h-auto min-h-80 bg-white shadow-md shadow-gray-600 rounded   overflow-hidden group lg:relative m-auto ">
     <div className="">
 
-    <img  src={imagem} alt=" foto site passatempo educativo" className='lg:h-80 lg:block hidden p-2 lg:group-hover:hidden rounded-3xl '/>
+    <img  src={imagem} alt=" foto site passatempo educativo" className='lg:h-80 lg:block hidden p-2 lg:group-hover:hidden rounded '/>
     </div>
            <div className='lg:absolute z-10 w-full h-full flex-col  justify-around gap-1 lg:p-10 px-6 pt-4 lg:hidden  group-hover:flex transition-discrete  delay-100 '>
 
