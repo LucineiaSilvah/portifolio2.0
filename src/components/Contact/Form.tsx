@@ -48,9 +48,7 @@ const Form = () => {
     
     </div>
   </form>
-  <p className="text-center text-gray-500 text-xs">
-    &copy;2026 Lucineia R.Silva . All rights reserved.
-  </p>
+ 
 </div>
     </>
   );

@@ -21,7 +21,7 @@ function App() {
   },[])
 
   return (
-    <>
+    <div className="bg-gray-50">
     <Header/>
     <main className="w-auto flex flex-col justify-center items-center m-auto text-center">
     <Home/>
@@ -30,7 +30,10 @@ function App() {
    <Studies/>
    <Contact/>
     </main>
-    </>
+      <p className="text-center text-gray-500 text-xs w-full bg-white  py-1">
+    &copy;2026 Lucineia R.Silva . All rights reserved.
+  </p>
+    </div>
   )
 }
 
