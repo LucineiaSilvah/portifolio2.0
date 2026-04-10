@@ -5,12 +5,12 @@ const Home = () => {
     <section id="home"  className="h-screen  w-[90%] m-auto flex lg:flex-row flex-col  text-center font-poppins mb-10">
       <div className="flex flex-col lg:gap-16 pt-12 lg:pt-0 " >
         <h2 className="lg:text-4xl lg:pt-50 pt-20 text-2xl text-center font-heading ">
-          Olá, Eu sou a Luh <br></br>
-          Seja Bem Vindo ao meu Portifólio
+          Olá, eu sou a Luh <br></br>
+          Bem-vindo(a) ao meu meu Portfólio
         </h2>
 
        <div>
-         <h3 className="lg:text-3xl text:lg italic">Desenvolvedora Front End</h3>
+         <h3 className="lg:text-3xl text:lg italic">Desenvolvedora Front-End</h3>
 <p className='italic'>&</p>
         <p className="pt-2 text-sm lg:text-md">"Acredito que a tecnologia pode e deve simplificar a vida das pessoas."</p>
        </div>

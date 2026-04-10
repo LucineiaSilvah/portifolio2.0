@@ -44,9 +44,10 @@ const handleMenu = ()=>
           </p>
          <ul className={`lg:flex hidden justify-between  lg:gap-10  lg:flex-row gap-4 top-5 lg:static lg:mt-0 lg:w-auto w-screen text-center item-center bg-white/90 flex-col  mt-15 absolute right-0 left-0 p-4 `}>
             <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700  border-b-white/5 flex justify-center items-center w-auto cursor-pointer' onClick={()=> scrollToComponent('home')} >inicio</li>
+             <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('projects')}>Projetos</li>
                    <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('about')}>Quem Sou</li>
-                 <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('projects')}>Projetos</li>
-                  <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('studies')}>Estudos</li>
+                
+                  <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('studies')}>Certificações</li>
       
            
           </ul>
@@ -54,10 +55,13 @@ const handleMenu = ()=>
         {
            <ul className={`${isOpen ?  `${fecha}`:` ${abrir}`} flex lg:hidden justify-between  lg:gap-10  lg:flex-row gap-4 top-5 lg:static lg:mt-0 lg:w-auto w-screen text-center item-center bg-white/90 flex-col  mt-15 absolute right-0 left-0 p-4 `}>
             <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700  border-b-white/5 flex justify-center items-center w-auto cursor-pointer' onClick={()=> scrollToComponent('home')} >inicio</li>
+            <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('projects')}>Projetos</li>
                    <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('about')}>Quem Sou</li>
-                 <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('projects')}>Projetos</li>
-                  <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('studies')}>Estudos</li>
-                  <li className='border-2 border-purple-700 text-black font-semibold text-center cursor-pointer hover:bg-purple-700/50 hover:text-white transition-colors delay-75 min-w-10 lg:px-4 px-2 rounded-full  flex items-center justify-center flex-row gap-2 text-md lg:text-lg w-[70%] m-auto lg:w-full h-12' onClick={()=> scrollToComponent('contact')}>Contato</li>
+                 
+                  <li className='font-semibold capitalize border-b-4 hover:border-b-purple-700   border-b-white flex justify-center items-center w-auto cursor-pointer'  onClick={()=> scrollToComponent('studies')}>Certificações</li>
+                  <li ><Button >
+          <span  onClick={()=> scrollToComponent('contact')}>Contato</span>
+        </Button></li>
       
            
           </ul>
