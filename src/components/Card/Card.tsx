@@ -1,3 +1,4 @@
+
 import Button from "../Button/Button";
 
 type Props = {
@@ -9,6 +10,9 @@ demo?:string;
 repo?:string;
 }
 const Card = ({imagem,titulo,descricao,demo,repo,children}:Props) => {
+
+
+ 
   return (
    <div className="border h-auto min-h-80 bg-white shadow-md shadow-gray-600 rounded   overflow-hidden group lg:relative m-auto ">
     <div className="">
@@ -32,8 +36,12 @@ const Card = ({imagem,titulo,descricao,demo,repo,children}:Props) => {
    
     <a href={demo} target="_blank"> Ver Projeto</a>
    </Button>
-   <Button>
-   <a href={repo} target="_blank"> Ver Repositório</a></Button>
+  
+   {repo?.startsWith('http') || repo?.startsWith('https') || repo?.startsWith('www') ? (
+    <Button > <a href={repo} target="_blank"> Ver Repositório</a>  </Button>
+   ): 
+   
+ (<span className="hidden"></span>)}
       
           </div>
           </div>
